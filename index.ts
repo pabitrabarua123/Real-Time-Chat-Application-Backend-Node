@@ -25,6 +25,11 @@ app.use(cors({
 app.use(cookieParser());
 app.use(express.json());
 
+// Test route
+app.get("/", (req, res) => {
+  res.json({ message: "Wellcome to realtime chat application backend, API is working!" });
+});
+
 // Routes
 app.use("/api/user", userRoutes);
 app.use("/api/message", messageRoutes);
