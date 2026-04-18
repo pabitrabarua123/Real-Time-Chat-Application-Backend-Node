@@ -30,10 +30,16 @@ jobs:
         run: |
           mkdir -p deploy
           cp -r dist deploy/
-          cp -r src deploy/
+          cp -r config deploy/
+          cp -r controllers deploy/
+          cp -r models deploy/
+          cp -r routes deploy/
+          cp -r middlewares deploy/
+          cp -r utils deploy/
+          cp -r types deploy/
+          cp index.js deploy/
           cp package*.json deploy/
           cp ecosystem.config.cjs deploy/
-          # Copy .env.example if exists
           [ -f .env.example ] && cp .env.example deploy/ || echo "No .env.example found"
           tar -czf deploy.tar.gz -C deploy .
 
