@@ -123,14 +123,14 @@ jobs:
             # Zero-downtime reload with PM2
             if pm2 describe realtime-chat-app-node > /dev/null 2>&1; then
               echo "Reloading PM2 app (zero-downtime)..."
-              sudo pm2 reload ecosystem.config.cjs --update-env
+              pm2 reload ecosystem.config.cjs --update-env
             else
               echo "Starting new PM2 process..."
-              sudo pm2 start ecosystem.config.cjs
+              pm2 start ecosystem.config.cjs
             fi
             
             # Save PM2 process list
-            sudo pm2 save
+            pm2 save
            
           EOF
 
