@@ -27,7 +27,7 @@ app.use(express.json());
 
 // Test route
 app.get("/", (req, res) => {
-  res.json({ message: "Wellcome to realtime chat application backend, API is working!" });
+  res.json({ message: "Wellcome to realtime chat application backend, ci/cd is configured!" });
 });
 
 // Routes
