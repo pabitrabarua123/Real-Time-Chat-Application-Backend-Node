@@ -48,7 +48,7 @@ cd Real-Time-Chat-Application-Backend-Node
 npm install
 ```
 ### 4. Database Setup
-Create MongoDB Atlas on the official website
+Create MongoDB Atlas on the official [website](https://www.mongodb.com/) and get connection string.
 
 ### 5. Setup environment variables
 
