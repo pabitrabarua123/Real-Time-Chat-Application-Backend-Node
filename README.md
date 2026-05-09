@@ -1,6 +1,6 @@
 # Real-Time Chat App - Backend
 
-A modern real-time chat application backend built with Node.js, Express, TypeScript, MongoDB, and Socket.IO.
+A simple real-time chat application backend built with Node.js, Express, TypeScript, MongoDB, and Socket.IO.
 
 ---
 
@@ -9,12 +9,22 @@ A modern real-time chat application backend built with Node.js, Express, TypeScr
 - Built with Node.js + Express + TypeScript
 - Real-time communication using Socket.IO
 - JWT Authentication & Authorization
-- User Login & Registration APIs
+- REST  APIs - User Login, Registration & Chat Message
 - One-to-one messaging system
 - Online/offline user tracking
 - MongoDB database integration
-- REST API architecture
-- Scalable backend structure
+
+---
+
+## Tech Stack
+
+- Node.js
+- Express.js
+- TypeScript
+- MongoDB
+- Mongoose
+- Socket.IO
+- JWT Authentication
 
 ---
 
@@ -78,19 +88,7 @@ https://github.com/pabitrabarua123/Real-Time-Chat-Application-Frontend-React
 
 ---
 
-## Tech Stack
+### Note
 
-- Node.js
-- Express.js
-- TypeScript
-- MongoDB
-- Mongoose
-- Socket.IO
-- JWT Authentication
-
----
-
-## Note
-
-Make sure MongoDB is running locally or use MongoDB Atlas before starting the server.
+Create MongoDB Atlas on the official website before starting the server.
 Also start the frontend application to use the complete real-time chat system.
