@@ -47,8 +47,10 @@ cd Real-Time-Chat-Application-Backend-Node
 ```bash
 npm install
 ```
+### 4. Database Setup
+Create MongoDB Atlas on the official website
 
-### 4. Setup environment variables
+### 5. Setup environment variables
 
 Create a `.env` file in the root directory and add the following:
 
@@ -84,6 +86,5 @@ Frontend setup and source code:
 
 https://github.com/pabitrabarua123/Real-Time-Chat-Application-Frontend-React
 
-#### Note
-Create MongoDB Atlas on the official website before starting the server.
+#### Note 
 Also start the frontend application to use the complete real-time chat system.
