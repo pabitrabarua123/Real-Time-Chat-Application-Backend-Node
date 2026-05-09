@@ -84,7 +84,6 @@ Frontend setup and source code:
 
 https://github.com/pabitrabarua123/Real-Time-Chat-Application-Frontend-React
 
-### Note
-
+#### Note
 Create MongoDB Atlas on the official website before starting the server.
 Also start the frontend application to use the complete real-time chat system.
