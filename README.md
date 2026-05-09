@@ -14,8 +14,6 @@ A simple real-time chat application backend built with Node.js, Express, TypeScr
 - Online/offline user tracking
 - MongoDB database integration
 
----
-
 ## Tech Stack
 
 - Node.js
@@ -85,8 +83,6 @@ http://localhost:5000
 Frontend setup and source code:
 
 https://github.com/pabitrabarua123/Real-Time-Chat-Application-Frontend-React
-
----
 
 ### Note
 
